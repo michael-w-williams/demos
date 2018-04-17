@@ -23,22 +23,24 @@
             <div class="w1024"> <a href="https://github.com/fnproject" target="_blank">
               <img src="./Tutorials_files/fn-logo-trans-sm.png" alt="fn-logo" height="90px" width="180px"></a>
 
+<!-- Button bar code - complete -->
               <style type="text/css">
 #buttonbar{ float: right; margin-top: 3em; margin-right: 1em; color: red; }
 #buttonbar a{ color: black; }
 
 [rel="popover"]{ cursor: pointer; display:inline-block; /* chrome-fix */ }
               </style>
-    <script>
+    <script> <!-- Triggers popup text -->
         $(document).ready(function() {
             $("[rel=popover]").popover({'trigger':'hover'});
         });
     </script>
               <div id="buttonbar">
-                  <a href="https://fnproject.io/tutorials" alt="Home" rel="popover" title="Home"><i class="fas fa-home"></i></a>&nbsp;&nbsp;
-                  <a href="{{site.github.repository_url}}/blob/gh-pages/{{page.path}}" alt="Edit" rel="popover" title="Edit"><i class="fas fa-edit"></i></a>&nbsp;&nbsp;
-                  <a href="https://github.com/fnproject/tutorials/issues" alt="Report an Issue" rel="popover" title="Report an Issue"><i class="fas fa-exclamation-circle"></i></a>&nbsp;&nbsp;
+                  <a href="https://fnproject.io/tutorials" alt="Home Button" rel="popover" title="Tutorials' Home"><i class="fas fa-home"></i></a>&nbsp;&nbsp;
+                  <a href="{{site.github.repository_url}}/blob/gh-pages/{{page.path}}" alt="Edit Button" rel="popover" title="Edit"><i class="fas fa-edit"></i></a>&nbsp;&nbsp;
+                  <a href="https://github.com/fnproject/tutorials/issues" alt="Report an Issue Button" rel="popover" title="Report an Issue"><i class="fas fa-exclamation-circle"></i></a>&nbsp;&nbsp;
               </div>
+<!-- End Button bar code -->
             </div>
         </header>
         <!--end header-->
