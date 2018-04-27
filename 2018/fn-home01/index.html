@@ -86,18 +86,28 @@
   <!-- Navigation -->
   <div class="navbar navbar-custom" role="navigation" style="background-color:white;">
       <div class="container">
-        <!-- menu -->
-        <div id="navbar-menu">
 
-          <!-- Navbar left -->
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="title-box">
+            <p class="title-alt">Get Started:</p>
+            <h3>Tutorials</h3>
+            <div class="border"></div>
+          </div>
+        </div>
+      </div> <!-- end row -->
 
     <script> <!-- Triggers popup text -->
         $(document).ready(function() {
             $("[rel=popover]").popover({'trigger':'hover'});
         });
     </script>
-          <ul class="nav navbar-nav nav-custom-left" >
-            <li><a href="https://fnproject.io/tutorials" class="btn btn-inverse btn-bordered" style="margin-top:30px; margin-right:20px">Get Started: </a></li>
+          <style type="text/css">
+#iconlist { padding:0px 0px 0px 200px;}
+#iconlist ul li{ margin:0px 15px; }
+          </style>
+        <div id="iconlist">
+          <ul class="nav navbar-nav">
             <li>
               <a href="https://fnproject.io/tutorials/Introduction/"><img src="images/langs/golang64.png" rel="popover" title="Go"></a>
             </li>
@@ -111,8 +121,7 @@
               <a href="https://fnproject.io/tutorials/ruby/intro/" rel="popover" title="Ruby"><img src="images/langs/ruby-logo.png"></a>
             </li>
           </ul>
-        </div>
-        <!--/Menu -->
+      </div> <!-- end div -->
       </div>
       <!-- end container -->
   </div>
