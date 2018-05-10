@@ -8,4 +8,4 @@
 ![Fin with Blue Waves](FN_proposalB.png)
 
 ## Fin Black/White
-![Fin Black/White}(fn-background-sample.png)
+![Fin Black/White](fn-background-sample.png)
