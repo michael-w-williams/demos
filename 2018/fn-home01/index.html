@@ -103,24 +103,19 @@
         });
     </script>
           <style type="text/css">
-#iconlist { padding:0px 0px 0px 200px;}
-#iconlist ul li{ margin:0px 15px; }
+#iconlist { margin:0px auto 20px auto !important; text-align:center;}
+#iconlist a{padding:20px; }
           </style>
         <div id="iconlist">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="https://fnproject.io/tutorials/Introduction/"><img src="images/langs/golang64.png" rel="popover" title="Go"></a>
-            </li>
-            <li>
-              <a href="https://fnproject.io/tutorials/JavaFDKIntroduction/" rel="popover" title="Java"><img src="images/langs/java-logo.png"></a>
-            </li>
-            <li>
-                <a href="https://fnproject.io/tutorials/node/intro/" rel="popover" title="Node.js"><img src="images/langs/nodejs-logo.png"></a>
-            </li>
-            <li>
-              <a href="https://fnproject.io/tutorials/ruby/intro/" rel="popover" title="Ruby"><img src="images/langs/ruby-logo.png"></a>
-            </li>
-          </ul>
+            <a href="https://fnproject.io/tutorials/Introduction/"><img src="images/langs/golang64.png" rel="popover" title="Go"></a>
+
+             <a href="https://fnproject.io/tutorials/JavaFDKIntroduction/" rel="popover" title="Java"><img src="images/langs/java-logo.png"></a>
+
+             <a href="https://fnproject.io/tutorials/node/intro/" rel="popover" title="Node.js"><img src="images/langs/nodejs-logo.png"></a>
+
+            <a href="https://fnproject.io/tutorials/python/intro/"><img src="images/langs/python76.png" rel="popover" title="Python"></a>
+
+            <a href="https://fnproject.io/tutorials/ruby/intro/" rel="popover" title="Ruby"><img src="images/langs/ruby-logo.png" alt="Ruby Logo"></a>
       </div> <!-- end div -->
       </div>
       <!-- end container -->
@@ -191,8 +186,14 @@
   <!-- Navigation -->
   <div class="navbar navbar-custom" role="navigation" style="background-color:white;">
       <div class="container">
+          <style type="text/css">
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .navbar-custom .navbar-nav li a { font-size: 14px; }
+}
+          </style>
+
         <!-- menu -->
-        <div class="navbar-collapse collapse" id="navbar-menu">
+        <div id="navbar-menu">
 
           <!-- Navbar left -->
 
