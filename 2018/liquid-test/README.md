@@ -33,9 +33,11 @@ This file is to test the best way to escape bracket pairs:.
 ### After 2
 
 >![user input](../images/userinput.png)
->```shell
->FNSERVER_IP=$(docker inspect --type container -f &apos;&#123;&#123;.NetworkSettings.IPAddress&#125;&#125;&apos; fnserver)
->```
+<blockquote>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+FNSERVER_IP=$(docker inspect --type container -f '&#123;&#123;.NetworkSettings.IPAddress&#125;&#125;' fnserver)
+</code></pre></div></div>
+</blockquote>
 
 
 
