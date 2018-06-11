@@ -32,11 +32,14 @@ This file is to test the best way to escape bracket pairs:.
 
 ### After 2
 
->![user input](../images/userinput.png)
+<!-- HTML required to escape Jekyll Liquid template expression
+Otherwise double brackets and contents are stripped from output.
+ -->
 <blockquote>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<img src="../images/userinput.png">
+<pre><code>
 FNSERVER_IP=$(docker inspect --type container -f '&#123;&#123;.NetworkSettings.IPAddress&#125;&#125;' fnserver)
-</code></pre></div></div>
+</code></pre>
 </blockquote>
 
 
