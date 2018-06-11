@@ -26,15 +26,17 @@ This file is to test the best way to escape bracket pairs:.
 
 >![user input](../images/userinput.png)
 >```sh
->FNSERVER_IP=$(docker inspect --type container -f '&#123;&#123;.NetworkSettings.IPAddress&#125;&#125;' fnserver)
+>FNSERVER_IP=$(docker inspect --type container -f '{{.NetworkSettings.IPAddress}}' fnserver)
 >```
+
 
 ### After 2
 
 >![user input](../images/userinput.png)
 >```shell
->FNSERVER_IP=$(docker inspect --type container -f '.NetworkSettings.IPAddress}}' fnserver)
+>FNSERVER_IP=$(docker inspect --type container -f &apos;&#123;&#123;.NetworkSettings.IPAddress&#125;&#125;&apos; fnserver)
 >```
+
 
 
 
