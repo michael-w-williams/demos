@@ -8,5 +8,5 @@ This page links to demos created in 2018.
 * [Fn Tutorial with Buttons - Popup Text](fn-tut-ui01-alt/Tutorials.html)
 
 ### CLI Sample 01
-* [`fn start`](cli-sample/fn-start.md)
-* [`fn stop`](cli-sample/fn-stop.md)
+* [`fn start`](cli-samp01/fn-start.md)
+* [`fn stop`](cli-samp01/fn-stop.md)
