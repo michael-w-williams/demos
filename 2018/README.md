@@ -10,3 +10,6 @@ This page links to demos created in 2018.
 ### CLI Sample 01
 * [`fn start`](cli-samp01/fn-start.md)
 * [`fn stop`](cli-samp01/fn-stop.md)
+
+### CLI Prototypes
+* [CLI Prototype #1](cli01/README.md)
