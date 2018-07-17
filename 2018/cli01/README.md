@@ -1,6 +1,7 @@
 # Fn CLI Guide
 
 ### [Fn CLI How-to Guides](how-to/README.md)
+* [Manage an Fn Server](how-to/manage-server.md)
 
 ### Fn Command Reference
 
