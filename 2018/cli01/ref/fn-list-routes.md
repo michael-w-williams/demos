@@ -4,10 +4,13 @@
 $ fn list routes
 
 MANAGEMENT COMMAND
-  fn list routes - list routes for `app`
+  fn list routes - list routes for an application
     
 USAGE
-  fn list routes [global options] <app_name> [command options]
+  fn [global options] list routes [command options] <app-name> 
+    
+DESCRIPTION
+  This command provides a list of defined routes for a specific application.
     
 COMMAND OPTIONS
   --cursor value  Pagination cursor

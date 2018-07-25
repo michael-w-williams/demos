@@ -7,7 +7,10 @@ DEVELOPMENT COMMANDS
   fn run -   Run a function locally
              
 USAGE
-  fn run [global options]  [command options]
+  fn [global options] run [command options] [function-subdirectory] 
+    
+DESCRIPTION
+  This command runs a function locally.
     
 COMMAND OPTIONS
   --env value, -e value          Select environment variables to be sent to function

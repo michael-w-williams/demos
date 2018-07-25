@@ -7,17 +7,17 @@ MANAGEMENT COMMAND
   fn get -   Get an object to retrieve its information
              
 USAGE
-  fn get [global options] <subcommand> [command options]
+  fn [global options] get [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This commands gets a 'call', 'configuaration' or 'log' to retrieve information for an object ('app', 'route' or 'function').
     
 SUBCOMMANDS
-  call, calls, cl      Get function call info per app
-  config, cf             Get configurations for apps and routes
-  logs, log, lg        Get logs for a call. Must provide call_id or last (l) to retrieve the most recent calls logs.
-  help, h              Shows a list of commands or help for one command
-                   
+  call, calls, cl         Get function call info per app
+  config, config, cf      Manage configurations for apps and routes
+  logs, log, lg           Get logs for a call, providing call_id or last (l)
+  help, h                 Shows a list of commands or help for one command
+                      
 COMMAND OPTIONS
   --help, -h  show help
 

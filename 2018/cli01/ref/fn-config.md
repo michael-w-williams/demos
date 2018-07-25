@@ -7,10 +7,10 @@ MANAGEMENT COMMAND
   fn config -   Set configuration for an object
                 
 USAGE
-  fn config [global options] <subcommand> [command options]
+  fn [global options] config [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command sets a configuaration key for an 'app', 'function' or 'route'.
     
 SUBCOMMANDS
   app, apps, a               Store a configuration key for this application

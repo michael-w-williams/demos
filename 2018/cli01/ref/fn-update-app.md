@@ -7,7 +7,10 @@ MANAGEMENT COMMAND
   fn update app - Update an application
     
 USAGE
-  fn update app [global options] <app_name> [command options]
+  fn [global options] update app [command options] <app-name> 
+    
+DESCRIPTION
+  This command updates a created application.
     
 COMMAND OPTIONS
   --config value, -c value  Route configuration

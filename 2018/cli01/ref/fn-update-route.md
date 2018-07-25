@@ -4,10 +4,13 @@
 $ fn update route
 
 MANAGEMENT COMMAND
-  fn update route - Update a route in an `app`
+  fn update route - Update a route in application
     
 USAGE
-  fn update route [global options] <app_name> </path> [command options]
+  fn [global options] update route [command options] <app-name> </path> 
+    
+DESCRIPTION
+  This command updates a route in an application `app`.
     
 COMMAND OPTIONS
   --memory value, -m value  Memory in MiB (default: 0)

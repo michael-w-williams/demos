@@ -7,10 +7,10 @@ $ fn version
   fn version - Display CLI and server versions
     
 USAGE
-  fn version [global options] 
+  fn [global options] version 
     
 DESCRIPTION
-  This is the description
+  This is commands shows the latest client and server version.
 ```
 
 [Some link](#)

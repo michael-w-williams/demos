@@ -7,10 +7,10 @@ MANAGEMENT COMMAND
   fn get call - Get function call info per app
     
 USAGE
-  fn get call [global options] <app_name> <call-id>
+  fn [global options] get call <app-name> <call-id> 
     
 DESCRIPTION
-  This is the description
+  This command gets information call of a route.
 ```
 
 [Some link](#)

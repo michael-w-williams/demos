@@ -7,7 +7,7 @@ MANAGEMENT COMMAND
   fn create context - Create a new context
     
 USAGE
-  fn create context [global options] <context> [command options]
+  fn [global options] create context [command options] <context> 
     
 DESCRIPTION
   This command creates a new context for a created application.

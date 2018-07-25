@@ -7,10 +7,10 @@ DEVELOPMENT COMMANDS
   fn build -   Build function version
                
 USAGE
-  fn build [global options]  [command options]
+  fn [global options] build [command options] [function-subdirectory] 
     
 DESCRIPTION
-  This is the description
+  This command builds a new function.
     
 COMMAND OPTIONS
   -v                             Verbose mode

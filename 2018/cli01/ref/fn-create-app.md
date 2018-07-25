@@ -7,7 +7,7 @@ MANAGEMENT COMMAND
   fn create app - Create a new application
     
 USAGE
-  fn create app [global options] <app_name> [command options]
+  fn [global options] create app [command options] <app-name> 
     
 DESCRIPTION
   This command creates a new application.

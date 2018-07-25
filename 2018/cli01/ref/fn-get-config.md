@@ -4,13 +4,13 @@
 $ fn get config
 
 MANAGEMENT COMMAND
-  fn get config -   Get configurations for apps and routes
-                    
+  fn get config - Manage configurations for apps and routes
+    
 USAGE
-  fn get config [global options] <subcommand> [command options]
+  fn [global options] get config [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command unsets the configuration of created objects ('app', 'function' or 'route').
     
 SUBCOMMANDS
   app, apps, a               Inspect configuration key for this application

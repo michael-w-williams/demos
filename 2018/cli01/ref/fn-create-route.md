@@ -7,10 +7,10 @@ MANAGEMENT COMMAND
   fn create route - Create a route in an application
     
 USAGE
-  fn create route [global options] <app_name> </path> <image> [command options]
+  fn [global options] create route [command options] <app-name> </path> <image> 
     
 DESCRIPTION
-  This command creates a new route for a created application.
+  This command creates a new route within an application.
     
 COMMAND OPTIONS
   --memory value, -m value  Memory in MiB (default: 0)

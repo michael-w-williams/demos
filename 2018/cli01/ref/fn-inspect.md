@@ -7,14 +7,15 @@ MANAGEMENT COMMAND
   fn inspect -   Retrieve properties of an object
                  
 USAGE
-  fn inspect [global options] <subcommand> [command options]
+  fn [global options] inspect [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command allows to inspect the properties of an object ('app', 'context', function', 'route' or 'trigger').
     
 SUBCOMMANDS
   app, apps, a               Retrieve one or all apps properties
-  function, func, f, fn      Retrieve one or all functions properties
+  context, ctx               Inspect the contents of a context, if no context is specified the current-context will be used.
+  function, func, f, fn      Retrieve one or all properties for a function
   route, routes, r           Retrieve one or all routes properties
   trigger, trig, t, tr       Retrieve one or all trigger properties
   help, h                    Shows a list of commands or help for one command

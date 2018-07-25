@@ -4,19 +4,19 @@
 $ fn unset
 
 MANAGEMENT COMMAND
-  fn unset -   Unset elements of created object
+  fn unset -   Unset elements of a created object
                
 USAGE
-  fn unset [global options] <subcommand> [command options]
+  fn [global options] unset [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command unsets elements ('configurations') for a created object ('app', 'route' or 'context').
     
 SUBCOMMANDS
-  config, cf          Get configurations for apps and routes
-  context, ctx      Unset current-context
-  help, h           Shows a list of commands or help for one command
-                
+  config, config, cf      Manage configurations for apps and routes
+  context, ctx            Unset current-context
+  help, h                 Shows a list of commands or help for one command
+                      
 COMMAND OPTIONS
   --help, -h  show help
 

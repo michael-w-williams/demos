@@ -7,7 +7,10 @@ DEVELOPMENT COMMANDS
   fn bump -   Bump function version
               
 USAGE
-  fn bump [global options]  [command options]
+  fn [global options] bump [command options] 
+    
+DESCRIPTION
+  This command bumps the version of the func.yaml.
     
 COMMAND OPTIONS
   --major                        bumps major version

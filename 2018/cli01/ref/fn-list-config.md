@@ -4,13 +4,13 @@
 $ fn list config
 
 MANAGEMENT COMMAND
-  fn list config -   Get configurations for apps and routes
-                     
+  fn list config - Manage configurations for apps and routes
+    
 USAGE
-  fn list config [global options] <subcommand> [command options]
+  fn [global options] list config [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command unsets the configuration of created objects ('app', 'function' or 'route').
     
 SUBCOMMANDS
   app, apps, a               List configuration key/value pairs for this application

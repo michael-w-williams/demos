@@ -7,10 +7,10 @@ MANAGEMENT COMMAND
   fn update server - Pulls latest functions server
     
 USAGE
-  fn update server [global options] 
+  fn [global options] update server 
     
 DESCRIPTION
-  This is the description
+  This command updates the latest Fn server
 ```
 
 [Some link](#)

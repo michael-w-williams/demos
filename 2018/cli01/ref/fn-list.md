@@ -7,18 +7,18 @@ MANAGEMENT COMMAND
   fn list -   Return a list of created objects
               
 USAGE
-  fn list [global options] <subcommand> [command options]
+  fn [global options] list [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command returns a list of created objects ('app', 'call', 'context', 'function', 'route' or 'trigger') or configurations.
     
 SUBCOMMANDS
   apps, app, a                 List all created applications
-  calls, call, cl              List all calls for the specific app. Route is optional
-  config, cf                     Get configurations for apps and routes
+  calls, call, cl              List all calls for the specific app (route is optional)
+  config, config, cf           Manage configurations for apps and routes
   contexts, context, ctx       List contexts
-  functions, funcs, f, fn      List functions for `app`
-  routes, route, r             list routes for `app`
+  functions, funcs, f, fn      List functions for an application
+  routes, route, r             list routes for an application
   triggers, trigs, t, tr       List all triggers
   help, h                      Shows a list of commands or help for one command
                            

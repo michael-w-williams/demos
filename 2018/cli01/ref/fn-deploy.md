@@ -4,13 +4,13 @@
 $ fn deploy
 
 DEVELOPMENT COMMANDS
-  fn deploy -   Deploys a function to the functions server. (bumps, build, pushes and updates route)
+  fn deploy -   Deploys a function to the functions server (bumps, build, pushes and updates route).
                 
 USAGE
-  fn deploy [global options]  [command options]
+  fn [global options] deploy [command options] [function-subdirectory] 
     
 DESCRIPTION
-  This is the description
+  This command deploys one or all (--all) functions to the function server.
     
 COMMAND OPTIONS
   --app value                     App name to deploy to

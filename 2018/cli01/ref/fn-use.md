@@ -7,10 +7,10 @@ MANAGEMENT COMMAND
   fn use -   Select context for further commands
              
 USAGE
-  fn use [global options] <subcommand> [command options]
+  fn [global options] use [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command uses a selected object ('context') for further invocations.
     
 SUBCOMMANDS
   context, ctx      Use context for future invocations

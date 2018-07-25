@@ -1,8 +1,5 @@
 # Fn CLI Guide
 
-### [Fn CLI How-to Guides](how-to/README.md)
-* [Manage an Fn Server](how-to/manage-server.md)
-
 ### Fn Command Reference
 
 [fn build](ref/fn-build.md)  
@@ -43,3 +40,6 @@
 [fn update trigger](ref/fn-update-trigger.md)  
 [fn use](ref/fn-use.md)  
 [fn version](ref/fn-version.md)  
+
+### [Fn CLI How-to Guides](how-to/README.md)
+* [Manage an Fn Server](how-to/manage-server.md)

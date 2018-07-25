@@ -4,13 +4,13 @@
 $ fn test
 
 DEVELOPMENT COMMANDS
-  fn test -   Run functions test if present
+  fn test -   Run functions test
               
 USAGE
-  fn test [global options]  [command options]
+  fn [global options] test [command options] [function-subdirectory] 
     
 DESCRIPTION
-  This is the description
+  This commmand runs fn tests if present.
     
 COMMAND OPTIONS
   --remote value                 Run tests against a remote fn server

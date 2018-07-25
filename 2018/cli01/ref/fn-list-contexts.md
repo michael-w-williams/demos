@@ -7,7 +7,10 @@ MANAGEMENT COMMAND
   fn list contexts - List contexts
     
 USAGE
-  fn list contexts [global options] 
+  fn [global options] list contexts 
+    
+DESCRIPTION
+  This command returns a list of contexts.
 ```
 
 [Some link](#)

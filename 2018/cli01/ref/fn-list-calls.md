@@ -4,13 +4,13 @@
 $ fn list calls
 
 MANAGEMENT COMMAND
-  fn list calls - List all calls for the specific app. Route is optional
+  fn list calls - List all calls for the specific app (route is optional)
     
 USAGE
-  fn list calls [global options] <app_name> [command options]
+  fn [global options] list calls [command options] <app-name> 
     
 DESCRIPTION
-  This is the description
+  This command provides a list of defined calls for a specific application.
     
 COMMAND OPTIONS
   --path value       Function's path

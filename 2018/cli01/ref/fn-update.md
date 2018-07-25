@@ -4,19 +4,19 @@
 $ fn update
 
 MANAGEMENT COMMAND
-  fn update -   Update elements of created object
+  fn update -   Update a created object
                 
 USAGE
-  fn update [global options] <subcommand> [command options]
+  fn [global options] update [command options] <subcommand>
     
 DESCRIPTION
-  This is the description
+  This command updates an object ('app', 'context', 'function', 'route', 'server' or 'trigger').
     
 SUBCOMMANDS
   app, apps, a               Update an application
   context, ctx               Update context files
-  function, func, f, fn      Update a function in an `app`
-  route, routes, r           Update a route in an `app`
+  function, func, f, fn      Update a function in application
+  route, routes, r           Update a route in application
   server, sv                 Pulls latest functions server
   trigger, trig, t, tr       Update a trigger
   help, h                    Shows a list of commands or help for one command
