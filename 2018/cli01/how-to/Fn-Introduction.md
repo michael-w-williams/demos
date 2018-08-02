@@ -2,20 +2,19 @@
 The Fn project is an open source serverless compute platform. With Fn, you deploy your functions to an Fn server which automatically executes and manages it. Each function is executed in a Docker container enabling the platform to provide broad support for development languages including Java, JavaScript (Node), Go, Python, Ruby, and others. The Fn client and server are simple and elegant allowing you to run the server either locally on a laptop or in the cloud. The Fn projects provides a strong enterprise focused tool that emphasizes security, scalability, and observability.
 
 ## What is Serverless?
-Serverless computing is a cloud-computing architecture where applications are broken up into small pieces of code which are dynamically allocated and managed in the cloud. The advantage of this approach is code is called and executed only when needed. This differs from a classic server approach where applications are loaded into a server spending most of their time idle, waiting for requests. Thus, in serverless computing you only need to pay for computing resources you actually use, rather than paying for infrastructure that most stands idle.
+Serverless computing is a cloud-computing architecture where applications are broken up into small pieces of code which are dynamically allocated and managed in the cloud. The advantage of this approach is code is called and executed only when needed. This differs from a classic server approach where applications are loaded into a server spending most of their time idle, waiting for requests. Thus, in serverless computing you only need to pay for computing resources you actually use, rather than paying for infrastructure that is mostly idle.
 
 ## Why use Serverless?
-First, the cost of serverless applications, over the long haul, should be cheaper as fewer resources are wasted in an idle mode. In addition, serverless systems should be easier to design and implement as complex issues like scaling, high availability, and security are pushed to the serverless vendor. Large scale vendors taken on the tougher issues at scale which should result in a costs savings. The allows you to just focus on your code and what it needs to do.
+First, the cost of serverless applications, over the long haul, should be cheaper as fewer resources are wasted in an idle state. In addition, serverless systems should be easier to design and implement as complex issues like scaling, high availability, and security are pushed to the serverless vendor. Large scale vendors take on the tougher issues and economies of scale results in a costs savings. This allows you to just focus on your code and what it needs to do.
 
 ## How does Serverless Functions Compare with Microservices?
 In serverless, the small piece of code that does all the work is called a Function. And,  a serverless cloud service typically provide functions-as-a-service (FAAS). Thus all the plumbing needed to provision, scale, patch and maintain the environment is provided by the service.
 
-Microservice architectures have been all the rage. Rather than create one large monolithic service, a service is decomposed into smaller services which provide the same set of function. It simplifies the develop and creation of web services. However, each microservice is still running its' own server which must be scaled and managed. FAAS takes things one step further.
+Microservice architectures have been all the rage. Rather than create one large monolithic service, a service is decomposed into smaller services which provide the same set of functions. It simplifies the develop and creation of web services. However, each microservice is still running its' own server which must be scaled and managed. FAAS takes things one step further.
 
 ![Monolithic vs Microservices vs Functions](images/fn-mono-to-funcs.png)
 
-Web services have been broken down into smaller and simpler components with each change in the architecture.
-
+Web services have been broken down into smaller and simpler components with each change in the architecture. FAAS architecture holds a great deal of promise in reducing cost and complexity of applications.
 
 ## The Fn Architecture
 The Fn serverless platform provides an open source implementation of these ideas. For example, a typical Fn implementation might look like this:
@@ -33,14 +32,12 @@ A load balancer provides a front end to several Fn servers. Each server manages 
  * Produces output to STDOUT
  * Logs any errors to STERR
 
-You code is deployed to an Fn server where it is staged and ready to go when a call is made for that function. For example, to create deploy and test an Fn function create a `myfunc` directory, change into it, and execute these commands:
+You code is deployed to an Fn server where it is staged and ready to go when a call is made for that function. For example, to create deploy an Fn function create a `myfunc` directory, change into it, and execute these commands:
 
 * `fn init --runtime node`
     * Creates a sample Node.js app in the current directory.
 * `fn run`
     * Runs the function locally to test the output.
-* `fn test`
-    * Tests the boilerplate code with some simple tests.
 * `fn deploy --app nodeapp`
     * Deploys your app to the Fn server. The function is now a part of the app "nodeapp" and the function name is picked up from your directory name. In this case "myfunc".
 * `fn call nodeapp myfunc`
