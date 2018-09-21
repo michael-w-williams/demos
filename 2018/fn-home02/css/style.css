@@ -1167,6 +1167,10 @@ iframe {
   padding: 11px 30px;
 }
 
+/* Added by mike**/
+.container-text { width:50em; }
+.image-size {height:120px;}
+
 
 /*======= Responsive ======*/
 @media (min-width: 768px) {
@@ -1198,6 +1202,9 @@ iframe {
   .footer h5 {
     margin-top: 30px;
   }
+
+  .container-text { width:100%; }
+  .image-size {height:80px;}
 }
 
 
