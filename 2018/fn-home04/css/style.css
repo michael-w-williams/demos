@@ -14,13 +14,16 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 500;
 }
 
-h1 { font-size: 3em; padding-top: 1em; }
+h1 { font-size: 2em; }
 h4 { font-size: 1.2em; }
 
+.line-1-5 { line-height:1.5em; }
 
 /* Fn Settings */
-.fn-container{ width: 100%: } 
+.fn-container{ width: 100%; margin-top: 4em; clear:both;  } 
 .fn-content{ text-align:center; width: 50em; margin-right:auto; margin-left:auto; }
+
+.logo-bottom { height:24px; float: left; }
 
 .navbar { position: fixed; width: 100%; top: 0; }
 
@@ -35,14 +38,24 @@ h4 { font-size: 1.2em; }
 
 #fn-wave {height:120px; vertical-align:baseline; margin: 1em 0em 2em 0em; }
 
+#iconlist { margin:0px auto 20px auto !important; text-align:center;}
+#iconlist a{padding:20px; }
+
+#shortmenu{ display:none; }
+#mainmenu{ display:block; }
+
 
 /*======= Responsive ======*/
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    #shortmenu{ display:none; }
+    #mainmenu{ display:block; }
 }
 
 
 @media (max-width: 767px) {
   .fn-content{ text-align:center; width: 100%; margin-right:auto; margin-left:auto; }
-  #overview{ margin-top: 10em; }
-  #top-logo{display: none; }
+
+  #shortmenu{ display:block; }
+  #mainmenu{ display:none; }
+
 }

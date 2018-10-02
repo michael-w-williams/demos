@@ -38,7 +38,7 @@
 <body>
 
 <!-- Edit Main Menu Here -->
-<div class="navbar">    
+<div class="navbar" id="mainmenu">    
     <ul>
         <li><a href="https://github.com/fnproject/fn">Quickstart</a></li>
         <li><a href="https://github.com/fnproject/docs">Docs</a></li>
@@ -49,6 +49,15 @@
         <li><a href="https://www.youtube.com/fnproj">YouTube</a></li>
         <li><a href="https://github.com/fnproject/fn" class="btn btn-inverse btn-bordered navbar-btn">View on GitHub</a></li>
 
+    </ul>
+</div>
+
+<!-- Short Menu: Displayed on smaller screens. Hidden by default -->
+<div class="navbar" id="shortmenu">    
+    <ul>
+        <li><a href="https://github.com/fnproject/fn">Quickstart</a></li>
+        <li><a href="https://github.com/fnproject/docs">Docs</a></li>
+        <li><a href="https://fnproject.io/tutorials">Tutorials</a></li>    
     </ul>
 </div>
     
@@ -64,7 +73,7 @@
         <img src="images/fn-background-sample.png" id="fn-wave" />
 
 
-        <h4 style="line-height:1.5em;">
+        <h4 class="line-1-5">
             The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise. It’s easy to use, supports every programming language, and is extensible and performant.
         </h4>
 
@@ -72,10 +81,6 @@
         <h1>Get Started</h1>
         <h4>Tutorials</h4>
 
-  <style type="text/css">
-#iconlist { margin:0px auto 20px auto !important; text-align:center;}
-#iconlist a{padding:20px; }
-  </style>
         <div id="iconlist">
             <a href="https://fnproject.io/tutorials/Introduction/" rel="popover" title="Go"><img src="images/langs/golang64.png" alt="Go logo"></a>
 
@@ -94,21 +99,18 @@
 
 <!-- FOOTER -->
 <footer>
-    <img src="images/fn-300x125.png" style="height:24px; float: left;"/>
+    <img src="images/fn-300x125.png" class="logo-bottom" />
     <p style="text-align: right;">
         <script type="text/javascript">var today=new Date(); document.write(today.getFullYear());</script> © Fn&nbsp;&nbsp;&nbsp;&nbsp;
     </p> 
 </footer>
-  
-
-  <!-- END FOOTER -->
-
-
+<!-- END FOOTER -->
 
 
 <!-- Load js here. Placed at the end of the document so the pages load faster -->
 
-<script> <!-- Triggers popup text -->
+<!-- Triggers popup text -->
+<script> 
     $(document).ready(function() {
         $("[rel=popover]").popover({'trigger':'hover'});
     });
