@@ -38,8 +38,11 @@
 <body>
 
 <!-- Edit Main Menu Here -->
-<div class="navbar" id="mainmenu">    
-    <ul>
+<div class="ham-menu" id="mainmenu"> 
+    <!-- input and label for hamburger menu -->   
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu-content">
         <li><a href="https://github.com/fnproject/fn">Quickstart</a></li>
         <li><a href="https://github.com/fnproject/docs">Docs</a></li>
         <li><a href="https://fnproject.io/tutorials">Tutorials</a></li>
@@ -47,20 +50,9 @@
         <li><a href="https://medium.com/fnproject">Medium</a></li>
         <li><a href="https://twitter.com/fnproj">Twitter</a></li>
         <li><a href="https://www.youtube.com/fnproj">YouTube</a></li>
-        <li><a href="https://github.com/fnproject/fn" class="btn btn-inverse btn-bordered navbar-btn">View on GitHub</a></li>
-
+        <li><a href="https://github.com/fnproject/fn" >View on GitHub</a></li>
     </ul>
-</div>
-
-<!-- Short Menu: Displayed on smaller screens. Hidden by default -->
-<div class="navbar" id="shortmenu">    
-    <ul>
-        <li><a href="https://github.com/fnproject/fn">Quickstart</a></li>
-        <li><a href="https://github.com/fnproject/docs">Docs</a></li>
-        <li><a href="https://fnproject.io/tutorials">Tutorials</a></li>    
-    </ul>
-</div>
-    
+</div>    
 
 <!-- HOME -->
 <div class="fn-container">
@@ -78,8 +70,7 @@
         </h4>
 
         <!-- Get Started -->
-        <h1>Get Started</h1>
-        <h4>Tutorials</h4>
+        <h4 class="gap">Tutorials</h4>
 
         <div id="iconlist">
             <a href="https://fnproject.io/tutorials/Introduction/" rel="popover" title="Go"><img src="images/langs/golang64-gray.jpg" alt="Go logo"></a>
