@@ -22,11 +22,18 @@ h4 { font-size: 1.2em; }
 .fn-container{ width: 100%: } 
 .fn-content{ text-align:center; width: 50em; margin-right:auto; margin-left:auto; }
 
+.navbar { position: fixed; width: 100%; top: 0; }
+
+.navbar ul{ list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+        
+.navbar li { float: left; }
+        
+.navbar li a { display: block; color: white; text-align: center; padding: 1em 1em; text-decoration: none; }
+        
+.navbar li a:hover { background-color: #111; } /* Link color to #111 (black) on hover */
+
+
 #fn-wave {height:120px; vertical-align:baseline; margin: 1em 0em 2em 0em; }
-
-
-#overview{ height: 700px; background: #ffffff;} /* First overview section */
-#get-started{ height: 500px; background: #EBF4FA;} /* Get Started Section */
 
 
 /*======= Responsive ======*/

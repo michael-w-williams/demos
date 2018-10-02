@@ -36,103 +36,60 @@
   </head>
 
 <body>
-<style type=text/css>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        
-        li {
-            float: left;
-        }
-        
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 1em 1em;
-            text-decoration: none;
-        }
-        
-        /* Change the link color to #111 (black) on hover */
-        li a:hover {
-            background-color: #111;
-        }    
-    </style>
 
-            <div style="position: fixed; width: 100%; top: 0;" >
-            
-            <img src="images/fn-300x125-alpha.png" style="float: right; margin: 0; padding: 0;  height: 2.2em; border: .5em solid #333; background: #333;" id="top-logo"/>
+<!-- Edit Main Menu Here -->
+<div class="navbar">    
+    <ul>
+        <li><a href="https://github.com/fnproject/fn">Quickstart</a></li>
+        <li><a href="https://github.com/fnproject/docs">Docs</a></li>
+        <li><a href="https://fnproject.io/tutorials">Tutorials</a></li>
+        <li><a href="https://join.slack.com/t/fnproject/shared_invite/MjIwNzc5MTE4ODg3LTE1MDE0NTUyNTktYThmYmRjZDUwOQ">Slack</a></li>
+        <li><a href="https://medium.com/fnproject">Medium</a></li>
+        <li><a href="https://twitter.com/fnproj">Twitter</a></li>
+        <li><a href="https://www.youtube.com/fnproj">YouTube</a></li>
+        <li><a href="https://github.com/fnproject/fn" class="btn btn-inverse btn-bordered navbar-btn">View on GitHub</a></li>
 
-            <ul style="margin:0; padding:0;">
-              <li><a href="https://github.com/fnproject/fn">Quickstart</a></li>
-              <li><a href="https://github.com/fnproject/docs">Docs</a></li>
-              <li><a href="https://fnproject.io/tutorials">Tutorials</a></li>
-              <li><a href="https://join.slack.com/t/fnproject/shared_invite/MjIwNzc5MTE4ODg3LTE1MDE0NTUyNTktYThmYmRjZDUwOQ">Slack</a></li>
-              <li><a href="https://medium.com/fnproject">Medium</a></li>
-              <li><a href="https://twitter.com/fnproj">Twitter</a></li>
-              <li><a href="https://www.youtube.com/fnproj">YouTube</a></li>
-              <li><a href="https://github.com/fnproject/fn" class="btn btn-inverse btn-bordered navbar-btn">View on GitHub</a></li>
-
-            </ul>
-            </div>
-
-
+    </ul>
+</div>
+    
 
 <!-- HOME -->
-    <div class="fn-container">
-        <div class="fn-content" id="overview">
+<div class="fn-container">
+    <div class="fn-content" id="overview">
 
-            <h1 >Fn Project</h1>
-            <h4>Open Source. Container-native. Serverless platform.</h4>
+        <!-- Introduction-->
+        <h1 >Fn Project</h1>
+        <h4>Open Source. Container-native. Serverless platform.</h4>
 
-            <img src="images/fn-background-sample.png" id="fn-wave" />
-
-
-            <h4 style="line-height:1.5em;">
-              The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise. It’s easy to use, supports every programming language, and is extensible and performant.
-            </h4>
-
-        </div> <!-- End Content-->
-    </div> <!-- end container -->
-  <!-- END HOME -->
+        <img src="images/fn-background-sample.png" id="fn-wave" />
 
 
+        <h4 style="line-height:1.5em;">
+            The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise. It’s easy to use, supports every programming language, and is extensible and performant.
+        </h4>
 
-    <!-- Get Started -->
-    <div class="fn-container" id="get-started">
-        <div class="fn-content">
+        <!-- Get Started -->
+        <h1>Get Started</h1>
+        <h4>Tutorials</h4>
 
-            <h1>Get Started</h1>
-            <h4>Tutorials</h4>
-
-    <script> <!-- Triggers popup text -->
-        $(document).ready(function() {
-            $("[rel=popover]").popover({'trigger':'hover'});
-        });
-    </script>
-          <style type="text/css">
+  <style type="text/css">
 #iconlist { margin:0px auto 20px auto !important; text-align:center;}
 #iconlist a{padding:20px; }
-          </style>
+  </style>
         <div id="iconlist">
             <a href="https://fnproject.io/tutorials/Introduction/" rel="popover" title="Go"><img src="images/langs/golang64.png" alt="Go logo"></a>
 
-             <a href="https://fnproject.io/tutorials/JavaFDKIntroduction/" rel="popover" title="Java"><img src="images/langs/java-logo.png" alt="Java logo"></a>
+            <a href="https://fnproject.io/tutorials/JavaFDKIntroduction/" rel="popover" title="Java"><img src="images/langs/java-logo.png" alt="Java logo"></a>
 
-             <a href="https://fnproject.io/tutorials/node/intro/" rel="popover" title="Node.js"><img src="images/langs/nodejs-logo.png" alt="Node.js logo"></a>
+            <a href="https://fnproject.io/tutorials/node/intro/" rel="popover" title="Node.js"><img src="images/langs/nodejs-logo.png" alt="Node.js logo"></a>
 
             <a href="https://fnproject.io/tutorials/python/intro/" title="Python" rel="popover"><img src="images/langs/Python76.png"  alt="Python logo"></a>
 
             <a href="https://fnproject.io/tutorials/ruby/intro/" rel="popover" title="Ruby"><img src="images/langs/ruby-logo.png" alt="Ruby logo"></a>
-      </div> <!-- end div -->
-    </div> <!-- End content-->
-  </div> <!-- End container -->
-  <!-- End Get Started -->
-
+        </div> <!-- end div -->
+    </div> <!-- End Content-->
+</div> <!-- end container -->
+<!-- END HOME -->
 
 
 <!-- FOOTER -->
@@ -148,8 +105,14 @@
 
 
 
-    <!-- js placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
 
-  </body>
+<!-- Load js here. Placed at the end of the document so the pages load faster -->
+
+<script> <!-- Triggers popup text -->
+    $(document).ready(function() {
+        $("[rel=popover]").popover({'trigger':'hover'});
+    });
+</script>
+    
+</body>
 </html>
