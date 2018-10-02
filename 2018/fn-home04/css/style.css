@@ -3,17 +3,18 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #4c5667;
   background: #fff;
-  font-size: 14px;
-  line-height: 22px;
-  overflow-x:hidden;
+  margin: 0; 
+  padding: 0;
 }
+
+html{ margin:0; padding: 0; }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
-h1 { font-size: 4em; }
+h1 { font-size: 3em; padding-top: 1em; }
 h4 { font-size: 1.2em; }
 
 
@@ -21,11 +22,11 @@ h4 { font-size: 1.2em; }
 .fn-container{ width: 100%: } 
 .fn-content{ text-align:center; width: 50em; margin-right:auto; margin-left:auto; }
 
-#fn-wave {height:120px; vertical-align:baseline; margin: 2em 0em 4em 0em; }
+#fn-wave {height:120px; vertical-align:baseline; margin: 1em 0em 2em 0em; }
 
 
-#overview{ height: 60em; background: #ffffff;} /* First overview section */
-#get-started{ height: 50em; background: #EBF4FA;} /* Get Started Section */
+#overview{ height: 700px; background: #ffffff;} /* First overview section */
+#get-started{ height: 500px; background: #EBF4FA;} /* Get Started Section */
 
 
 /*======= Responsive ======*/
@@ -34,16 +35,7 @@ h4 { font-size: 1.2em; }
 
 
 @media (max-width: 767px) {
-  .blog-wrapper .blog-item {
-    width: 100%;
-  }
-  .logo {
-    margin-top: 7px;
-  }
-  .blog-detail-box {
-    padding-right: 0px;
-  }
-  .intro-form,.video-bar {
-    margin-top: 50px;
-  }
+  .fn-content{ text-align:center; width: 100%; margin-right:auto; margin-left:auto; }
+  #overview{ margin-top: 10em; }
+  #top-logo{display: none; }
 }
