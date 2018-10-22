@@ -90,6 +90,7 @@ The last line ` - targets: ... ` specifies the host name and port of the Fn serv
 
 Check output of the following docker command. This is used in subsequent docker commands to map the docker IP address to the hostnames `fnserver` and `prometheus`.
 
+<!-- Test Comment here -->
 <!-- <% raw %> -->
 >![user input](../images/userinput.png)
 >```shell
