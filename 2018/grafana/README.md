@@ -94,9 +94,11 @@ Check output of the following docker command. This is used in subsequent docker 
 >![user input](../images/userinput.png)
 
 <div>
+<% raw %>
 <blockquote>
 <pre>docker network inspect bridge -f '{{range .IPAM.Config}}{{.Gateway}}{{end}}'</pre>
 </blockquote>
+<% endraw %>
 </div>
 
 
