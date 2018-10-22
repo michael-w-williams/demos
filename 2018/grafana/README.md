@@ -92,9 +92,11 @@ Check output of the following docker command. This is used in subsequent docker 
 
 
 >![user input](../images/userinput.png)
->```shell
->docker network inspect bridge -f '&#123;&#123;range .IPAM.Config&#125;&#125;&#123;&#123;.Gateway&#125;&#125;&#123;&#123;end&#125;&#125;'
->```
+<div>
+<blockquote>
+<pre>docker network inspect bridge -f '{{range .IPAM.Config}}{{.Gateway}}{{end}}'</pre>
+</blockquote>
+</div>
 
 
 
