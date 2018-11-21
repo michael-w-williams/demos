@@ -24,3 +24,8 @@ This page links to demos created in 2018.
 
 ### CLI Prototypes
 * [CLI Prototype #1](cli01/README.md)
+
+<span style="background-color: gray;">
+<p style="background-color: gray;"><b>Under Construction: Check back soon</b></p>
+<p>Due to ongoing changes to Fn core, parts of this tutorial may not function as designed. Check back for updates.</p>
+<span>
